@@ -1,12 +1,18 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
+import { Header, Footer } from './Components/Layout/index';
 import './App.css';
 
 class App extends Component {
+
   render() {
     return (
-      <div>
+      <Fragment>
 
-      </div>
+        <Header />
+
+        <Footer />
+
+      </Fragment>
     );
   }
 }
