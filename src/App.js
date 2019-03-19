@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { Header, Footer } from './Components/Layout/index';
+import { Body } from './Components/Routes/index';
 import './App.css';
 
 class App extends Component {
@@ -9,6 +10,8 @@ class App extends Component {
       <Fragment>
 
         <Header />
+
+        <Body />
 
         <Footer />
 

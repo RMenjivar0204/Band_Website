@@ -10,9 +10,9 @@ const Footer = () => {
                 textColor="primary"
                 centered
             >
-                <Tab label="Facebook" />
-                <Tab label="Instagram" />
-                <Tab label="SoundCloud" />
+                <Tab icon={<img alt="" src="https://img.icons8.com/material-outlined/24/000000/facebook.png"></img>} />
+                <Tab icon={<img alt="" src="https://img.icons8.com/material-outlined/24/000000/instagram-new.png"></img>} />
+                <Tab icon={<img alt="" src="https://img.icons8.com/material/24/000000/soundcloud.png"></img>} />
             </Tabs>
         </Paper>
     )
