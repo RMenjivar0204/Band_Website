@@ -19,7 +19,7 @@ const Header = () => {
                     <Grid item>
                         <Button color="inherit" style={{boxShadow:'none'}}>Home</Button>
                         <Button color="inherit">Music</Button>
-                        <Button color="inherit">Store</Button>
+                        <Button color="inherit">Store/Merch</Button>
                         <Button color="inherit">Contact</Button>
                         <IconButton color="inherit"  aria-label="Add to shopping cart">
                             <AddShoppingCartIcon />
